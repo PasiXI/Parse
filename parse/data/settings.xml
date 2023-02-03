@@ -6,7 +6,7 @@
         <display>
             <defense>
                 <bg>
-                    <alpha>50</alpha>
+                    <alpha>150</alpha>
                     <blue>0</blue>
                     <green>0</green>
                     <red>0</red>
@@ -39,13 +39,13 @@
                     <font>consolas</font>
                     <green>255</green>
                     <red>255</red>
-                    <size>10</size>
+                    <size>11</size>
                     <stroke>
                         <alpha>200</alpha>
                         <blue>0</blue>
                         <green>0</green>
                         <red>0</red>
-                        <width>1</width>
+                        <width>2</width>
                     </stroke>
                 </text>
                 <type>defense</type>
@@ -53,14 +53,14 @@
             </defense>
             <magic>
                 <bg>
-                    <alpha>50</alpha>
+                    <alpha>150</alpha>
                     <blue>0</blue>
                     <green>0</green>
                     <red>0</red>
                     <visible>true</visible>
                 </bg>
                 <data_types>
-                    <damage>total,total-percent</damage>
+                    <damage>total-percent,total</damage>
                     <spell>avg</spell>
                 </data_types>
                 <flags>
@@ -82,13 +82,13 @@
                     <font>consolas</font>
                     <green>255</green>
                     <red>255</red>
-                    <size>10</size>
+                    <size>11</size>
                     <stroke>
                         <alpha>200</alpha>
                         <blue>0</blue>
                         <green>0</green>
                         <red>0</red>
-                        <width>1</width>
+                        <width>2</width>
                     </stroke>
                 </text>
                 <type>offense</type>
@@ -96,7 +96,7 @@
             </magic>
             <melee>
                 <bg>
-                    <alpha>50</alpha>
+                    <alpha>150</alpha>
                     <blue>0</blue>
                     <green>0</green>
                     <red>0</red>
@@ -104,7 +104,7 @@
                 </bg>
                 <data_types>
                     <crit>percent</crit>
-                    <damage>total,total-percent</damage>
+                    <damage>total-percent,total</damage>
                     <ja>avg</ja>
                     <melee>percent</melee>
                     <miss>tally</miss>
@@ -131,13 +131,13 @@
                     <font>consolas</font>
                     <green>255</green>
                     <red>255</red>
-                    <size>10</size>
+                    <size>11</size>
                     <stroke>
                         <alpha>200</alpha>
                         <blue>0</blue>
                         <green>0</green>
                         <red>0</red>
-                        <width>1</width>
+                        <width>2</width>
                     </stroke>
                 </text>
                 <type>offense</type>
@@ -145,14 +145,14 @@
             </melee>
             <ranged>
                 <bg>
-                    <alpha>50</alpha>
+                    <alpha>150</alpha>
                     <blue>0</blue>
                     <green>0</green>
                     <red>0</red>
                     <visible>true</visible>
                 </bg>
                 <data_types>
-                    <damage>total,total-percent</damage>
+                    <damage>total-percent,total</damage>
                     <r_crit>percent</r_crit>
                     <ranged>percent</ranged>
                     <ws>avg</ws>
@@ -176,13 +176,13 @@
                     <font>consolas</font>
                     <green>255</green>
                     <red>255</red>
-                    <size>10</size>
+                    <size>11</size>
                     <stroke>
                         <alpha>200</alpha>
                         <blue>0</blue>
                         <green>0</green>
                         <red>0</red>
-                        <width>1</width>
+                        <width>2</width>
                     </stroke>
                 </text>
                 <type>offense</type>

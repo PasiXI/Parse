@@ -374,7 +374,7 @@ function player_info(id)
     
     if not typ then
         if player_table.is_npc then
-            if player_table.id%4096>2047 then
+            if player_table.id%4096>1040 then
                 for i,v in pairs(windower.ffxi.get_party()) do
                     if type(v) == 'table' and v.mob and v.mob.pet_index and v.mob.pet_index == player_table.index then
                         typ = 'pet'
